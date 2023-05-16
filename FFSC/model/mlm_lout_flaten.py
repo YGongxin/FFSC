@@ -8,7 +8,7 @@ class Feature(nn.Module):
     def __init__(self):
         super(Feature, self).__init__()
         model = MyModel.MyModel().cuda()
-        model.load_state_dict(torch.load('./model/my_model.pkl'))
+        # model.load_state_dict(torch.load('./model/my_model.pkl'))
         self.features = model.features
         # for param in self.features.parameters():
         #     param.requires_grad = True
