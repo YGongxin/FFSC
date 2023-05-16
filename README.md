@@ -14,7 +14,6 @@ tensorflow 2.8.0
 # Dataset
 Download Dataset
 Download BreaKHis Dataset at https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/.
-Download SNL Dataset at
 
 Crop the dataset image to a pixel size of 224 * 224 and remove images that do not contain cellular tissue.
 Place it in the directory ./dataset by training set and test set.
